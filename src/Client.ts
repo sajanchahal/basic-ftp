@@ -853,7 +853,7 @@ async function ignoreError<T>(func: () => Promise<T | undefined>) {
         return await func()
     }
     catch(err) {
-        // Ignore
+        // Ignore 
         return undefined
     }
 }
